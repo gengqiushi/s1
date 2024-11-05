@@ -17,10 +17,6 @@ public class test {
     @Autowired
     private UserService userService;
 
-    @Test
-    public void t1(){
-        List<User> users = userService.queryAll();
-        System.out.println(users);
-    }
+
 
 }
